@@ -176,7 +176,6 @@ if((!emptyEmail(email, errorEmail, emailStar, emailTitle) && !invalidEmail(email
     usersData.push(registrationData);
     localStorage.setItem('userData', JSON.stringify(usersData));
 }
-alert("Успешная регистрация");
 });
 
 let getUsers;
