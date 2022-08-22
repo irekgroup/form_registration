@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form registration</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="entrance">
+        <form action="" class="entrance-form">
+            <div class="entrance-registration">Зарегистрироваться</div>
+
+            <h2 class="form-title">Вход</h2>
+
+            <legend id="emailTitleEnt" class="input__title">Email</legend>
+            <div class="entrance-container">
+            <div class="entrance__cont">
+                <span id="emailStarEnt" class="entrance-form__star">*</span>
+                <input type="text" class="entrance-form__item email" id="entranceEnt" placeholder="Введите email">
+            </div>
+            <span id="emailMessageEnt" class="error__message">Поле обязательно для заполнения</span>
+            </div>
+
+            <legend  id="passwordTitleEnt" class="input__title">Пароль</legend>
+            <div class="entrance-container">
+            <div class="entrance__cont">
+                <span id="passwordStarEnt" class="entrance-form__star">*</span>
+                <input type="password" id="passwordEnt" class="entrance-form__item password" placeholder="Введите пароль">
+            </div>
+            <span id="passwordMessageEnt" class="error__message">Поле обязательно для заполнения</span>
+            </div>
+
+            <div class="entrance-container">
+            <div class="entrance-form__checkbox">
+                <span id="checkStarEnt" class="entrance-form__star">*</span>
+                <input type="checkbox" class="checkbox__check" id="check-boxEnt">
+                <label for="check-boxEnt" id="checkbox_checkEnt"></label>
+                <p class="checkbox__descript">Я согласен получать обновления на почту</p>
+            </div>
+            <span id="checkMessageEnt" class="error__message">Поле обязательно для заполнения</span>
+            </div>
+
+            <button class="entrance-form__enter" type="submit">Войти</button>
+        </form>
+    </div>
+
+    <div class="ready">🍓🍒🍎🍉🍑🍊🥭🍍🍇</div>
+
+    <div class="registration">
+        <form action="" class="registration-form">
+            <div class="registration-entrance">Авторизоваться</div>
+
+            <h2 class="form-title">Регистрация</h2>
+
+            <legend id="emailTitle" class="input__title">Email</legend>
+            <div class="registration-container">
+            <div class="registration__cont">
+                <span id="emailStar" class="registration-form__star">*</span>
+                <input type="text" class="registration-form__item email" placeholder="Введите email">
+            </div>
+            <span id="emailMessage" class="error__message">Поле обязательно для заполнения</span>
+            </div>
+
+            <legend  id="passwordTitle" class="input__title">Пароль</legend>
+            <div class="registration-container">
+            <div class="registration__cont">
+                <span id="passwordStar" class="registration-form__star">*</span>
+                <input type="password" id="password" class="registration-form__item password" placeholder="Введите пароль">
+            </div>
+            <span id="passwordMessage" class="error__message">Поле обязательно для заполнения</span>
+            </div>
+
+            <div class="registration-container">
+            <div class="registration-form__checkbox">
+                <span id="checkStar" class="registration-form__star">*</span>
+                <input type="checkbox" class="checkbox__check" id="check_box">
+                <label for="check-box" id="checkbox_check"></label>
+                <p class="checkbox__descript">Я согласен с <a href="#" class="checkbox__rules">Правилами пользования приложением</a></p>
+            </div>
+            <span id="checkMessage" class="error__message">Поле обязательно для заполнения</span>
+            </div>
+
+            <button class="registration-form__enter" type="submit">Регистрация</button>
+        </form>
+    </div>
+</div>
+
+<script src="./scripts/script.js"></script>
+</body>
+</html>
