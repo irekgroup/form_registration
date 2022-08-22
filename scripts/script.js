@@ -129,7 +129,7 @@ if(check.checked) {
     labelCheck.style.removeProperty('background');
 } else {
     check.checked = true;
-    labelCheck.style.background = "url('../images/check.svg') no-repeat 2px 2px";
+    labelCheck.style.background = "url('./images/check.svg') no-repeat 2px 2px";
 }
 });
 
