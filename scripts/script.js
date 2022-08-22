@@ -258,7 +258,7 @@ if(checkEntrance.checked) {
     labelCheckEntrance.style.removeProperty('background');
 } else {
     checkEntrance.checked = false;
-    labelCheckEntrance.style.background = "url('../images/check.svg') no-repeat 2px 2px";
+    labelCheckEntrance.style.background = "url('./images/check.svg') no-repeat 2px 2px";
 }
 });
 
